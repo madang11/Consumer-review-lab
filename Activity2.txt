@@ -1,0 +1,39 @@
+Activity 2
+
+4. Explain how the totalSentiment method works, including how you’re using strings and iteration in your solution.
+
+
+5. Test your starRating method for multiple reviews, including your simple sample review.
+a. Do the ratings make sense? Explain why or why not.
+
+
+b. Describe at least two ways in which you could adjust your totalSentiment method so that your program returns even more reasonable ratings.
+
+
+A student is writing a starRating method based on his totalSentiment method, which calculates the sum of all of the sentiment values in a review. He comes up with the following:
+public static int starRating(String fileName)
+{
+  double totalSentiment = totalSentiment(fileName);
+  if(totalSentiment < 15)
+  {
+    return 4;
+  }
+  else if(totalSentiment < 10)
+  {
+    return 3;
+  }
+  else if(totalSentiment < 5)
+  {
+    return 2;
+  }
+  else if(totalSentiment < 0)
+  {
+    return 1;
+  }
+  else
+  {
+    return 0;
+  }
+}
+
+6. Explain to the student, using specific examples of (a) what logical error he made in writing his code, and (b) how to fix it.

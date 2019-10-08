@@ -1,0 +1,18 @@
+Activity 4
+
+1. Determine one possible reason to autogenerate a negative review.
+
+
+2. Determine one possible reason to autogenerate a positive review.
+
+
+3. Discuss with a partner what the method needs to do to create a stronger review and write down the algorithm using pseudocode.
+
+
+5. What is the result of the following statement? oneWord = oneWord.substring(1);
+
+
+6. Why was it necessary to remove the * character (or other symbol) used to annotate the adjective before getting its sentiment value?
+
+
+7. In this activity you wrote a method that created a more positive or more negative review. How could this method be used or modified to create a super positive review (one that is extremely favorable)?

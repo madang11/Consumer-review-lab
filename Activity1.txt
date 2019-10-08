@@ -1,0 +1,32 @@
+Activity 1
+
+1. In this activity you’ll be calling the sentimentVal method. Find this method in the Review class and answer the following questions:
+a. Record the method signature in the space below.
+
+
+b. Does this method require a parameter? If so, what type of parameter is required?
+What happens if you pass a different type of parameter instead? (Try it!)
+
+
+c. Does the method return a value? If so, what is the return type?
+
+
+2. Write code that tests the sentimentVal method by calling it with several different String parameters and printing out the return value. Any words not in the list will have a return value of zero. Make sure to keep calling the method until you have at least three strings that have a return value other than zero. Record the method calls, including provided strings and return values in the chart below:
+Examples:
+Method Call               Return Value
+sentimentVal(“happily”);  2.32
+sentimentVal(“terrible”); -3.38
+sentimentVal(“cold”);     -0.04
+
+
+
+
+
+3. Determine whether or not each statement would compile. Briefly justify your answers.
+a. double num = sentimentVal(“warm”);
+
+
+b. String word = sentimentVal(0.5);
+
+
+c. double x = sentimentVal(“good”, “bad”);
